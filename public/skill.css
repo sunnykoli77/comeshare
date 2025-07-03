@@ -15,6 +15,7 @@ body {
     background-color: rgb(35, 33, 33);
     outline: 2px dashed rgb(5, 207, 247);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
 }
 
 h2 {
