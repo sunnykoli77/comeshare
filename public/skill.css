@@ -1,0 +1,77 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: 137px 137px 137px;
+    grid-template-rows: 45px 37.8px 597.6px 37.8px 37.8px;
+    border: 2px solid rgb(5, 207, 247);
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(35, 33, 33);
+    outline: 2px dashed rgb(5, 207, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    border: 1px solid slategrey;
+    width: 100%;
+    height: auto;
+}
+
+span {
+    font-size: small;
+}
+
+[class^='grid'] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid rgb(5, 207, 247);
+}
+
+.grid-Logo {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    font-weight: 700;
+    font-size: large;
+}
+
+.grid-nameInput {
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+
+.grid-talk {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.grid-talk > * {
+    margin: 0;
+    padding: 0px 5px;
+}
+
+.talkForm {
+    display: contents;
+}
+
+.grid-titlePart {
+    grid-row: 4/5;
+    grid-column: 1/4;
+}
+
+.grid-summaryPart {
+    grid-row: 5/6;
+    grid-column: 1/4;
+}
