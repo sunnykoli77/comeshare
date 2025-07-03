@@ -10,12 +10,12 @@ body {
     width: 100vw;
     height: 100vh;
     border: 2px solid rgb(5, 207, 247);
-    border-radius: 30px;
     color: white;
     background-color: rgb(35, 33, 33);
     outline: 2px dashed rgb(5, 207, 247);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 h2 {
