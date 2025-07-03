@@ -24,7 +24,7 @@ h2 {
 }
 
 span {
-    font-size: 2vw;
+    font-size: 4vw;
 }
 
 [class^='grid'] {
@@ -39,7 +39,7 @@ span {
     grid-row: 1/2;
     grid-column: 1/4;
     font-weight: 700;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 .grid-nameInput {
