@@ -4,9 +4,11 @@
 }
 
 .container {
-    display: inline-grid;
-    grid-template-columns: 137px 137px 137px;
-    grid-template-rows: 45px 37.8px 597.6px 37.8px 37.8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.0595fr 0.05fr 0.79fr 0.05fr 0.05fr;
+    width: 100vw;
+    height: 100vh
     border: 2px solid rgb(5, 207, 247);
     border-radius: 30px;
     color: white;
